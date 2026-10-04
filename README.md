@@ -8,13 +8,12 @@ Requires an Apple Silicon Mac on macOS 14 or later.
 
 ## Install
 
-1. Download the latest file from [Releases](https://github.com/pranavsaji/talktomyhand-releases/releases/latest), open it, and drag **Talktomyhand** into Applications.
-2. If macOS says "Talktomyhand Not Opened" (versions that aren't notarized by Apple yet): click **Done**, open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. Or run this in Terminal:
-   ```
-   xattr -dr com.apple.quarantine /Applications/Talktomyhand.app
-   ```
+1. Download the latest `.dmg` from [Releases](https://github.com/pranavsaji/talktomyhand-releases/releases/latest) and open it.
+2. Drag **Talktomyhand** onto the Applications folder, then open it from Applications. The app is signed and notarized by Apple, so it opens like any other app.
 3. Follow the setup window: allow Microphone and Accessibility, and set the 🌐 fn key to "Do Nothing" in Keyboard settings.
 4. Create a free account on the **Account** page (2,000 words a week, no API key needed), or paste your own [Groq API key](https://console.groq.com/keys) in Settings for unlimited use.
+
+Updating from 1.1.0 or earlier: macOS will ask you to allow Microphone and Accessibility once more, because the app is now signed with an Apple Developer ID.
 
 ## What it does
 
